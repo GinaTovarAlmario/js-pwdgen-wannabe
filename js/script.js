@@ -11,12 +11,11 @@ ES: marcolanciverde21 */
 // PROCEDIMENTO
 /*
 1- Recupero elementi della pagina di mio interesse
-2- Mi preparo una variabile che mi permetterà di 
-3- Chiedere all'utente il nome
-4- Chiedere all'utente il cognome
-5- Chiedere all'utente il colore preferito
-6- Faccio la somma delle mie stringhe
-7- Inserisco il risultato nell'elemento del DOM */
+2- Chiedere all'utente il nome
+3- Chiedere all'utente il cognome
+4- Chiedere all'utente il colore preferito
+5- Faccio la somma delle mie stringhe
+6- Inserisco il risultato nell'elemento del DOM */
 
 
 // Fase preparatoria
@@ -34,5 +33,10 @@ const favouriteColor = prompt('Colore preferito?','Lilla');
 console.log(favouriteColor);
 
 // Fase lavorazione Dati
+const fullInformation = `${firstName}${lastName}${favouriteColor}`;
+console.log(fullInformation);
 
+const message = `${fullInformation}21`;
+console.log(message);
 // Fase di produzione output
+resultElement.innerText = message ;
