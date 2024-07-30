@@ -20,8 +20,18 @@ ES: marcolanciverde21 */
 
 
 // Fase preparatoria
+const resultElement = document.getElementById('result');
+console.log(resultElement);
 
 // Fase raccolta Dati
+const firstName = prompt('Qual è il tuo nome?', 'Paola');
+console.log(firstName);
+
+const lastName = prompt('Qual è il tuo cognome?','Almario');
+console.log(lastName);
+
+const favouriteColor = prompt('Colore preferito?','Lilla');
+console.log(favouriteColor);
 
 // Fase lavorazione Dati
 
